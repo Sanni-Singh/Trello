@@ -51,7 +51,7 @@ const Card = ({titleList , title})=>{
             )
         }
         else{
-            return <button onClick={()=> setAddbtn(!addBtn)} className="border w-fit m-auto px-12 py-2 text-xl font-bold border-none hover:bg-blue-400 cursor-pointer bg-blue-600 text-white rounded-md ">Add List</button>
+            return <button onClick={()=> setAddbtn(!addBtn)} className="border w-fit m-auto px-12 py-2 text-xl font-bold border-none hover:bg-blue-400 cursor-pointer bg-blue-600 text-white rounded-md ">Add Work</button>
         }
     }
     return(
