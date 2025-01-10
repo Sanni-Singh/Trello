@@ -59,7 +59,7 @@ const ListOfWorks = ({titleList ,  idx , task})=>{
             </div>)
         }
         else {
-            return (<div ref={ref} className="bg-gray-400 h-[100%] w-[100%] px-2 py-1 text-white flex justify-between items-center">
+            return (<div ref={ref} className="bg-gray-700 h-[100%] w-[100%] px-2 py-1 text-white flex justify-between items-center">
             <p className=" text-xl">{task}</p>
             <div className="flex gap-2">
                 <FaPencilAlt onClick={editOpenFn} style={{color:"green", fontSize:"15px",cursor:"pointer"}}/>
